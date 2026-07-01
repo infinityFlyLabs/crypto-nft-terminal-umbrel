@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      # format: <app-id>_<service-name>_1
+      APP_HOST: infinityfly-crypto-nft-terminal_web_1
+      APP_PORT: 8787
+
+  web:
+    image: ghcr.io/infinityflylabs/crypto-nft-terminal:1.0.0
+    restart: on-failure
+    init: true
+    environment:
+      PORT: "8787"
+      ALLOWED_ORIGIN: "*"
+      MAGICEDEN_API_KEY: ""

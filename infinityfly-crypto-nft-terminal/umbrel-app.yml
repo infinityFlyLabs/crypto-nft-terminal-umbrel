@@ -1,0 +1,31 @@
+manifestVersion: 1
+id: infinityfly-crypto-nft-terminal
+name: "Crypto · NFT Terminal"
+tagline: "Self-hosted crypto & NFT terminal — prices, perps, wallet viewer & NFT floors"
+icon: https://raw.githubusercontent.com/infinityFlyLabs/crypto-nft-terminal-umbrel/main/infinityfly-crypto-nft-terminal/icon.svg
+category: Finance
+version: "1.0.0"
+port: 8787
+description: >-
+  A clean, self-hosted crypto & NFT terminal for your Umbrel.
+
+
+  Live spot prices (CoinGecko), Bybit perpetuals (funding, open interest,
+  long/short ratio), and a multi-chain NFT viewer with floors, top bids and
+  rarity (Alchemy + Magic Eden). Plus a global strip with total market cap,
+  BTC dominance and the Fear & Greed index.
+
+
+  You bring your own free API keys — nothing depends on anyone else's account.
+developer: InfinityFly Labs
+website: https://github.com/infinityFlyLabs
+submitter: InfinityFly Labs
+submission: https://github.com/infinityFlyLabs/crypto-nft-terminal-umbrel
+repo: https://github.com/infinityFlyLabs/crypto-nft-terminal-umbrel
+support: https://github.com/infinityFlyLabs/crypto-nft-terminal-umbrel/issues
+gallery: []
+releaseNotes: "First release."
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
