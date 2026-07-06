@@ -4,7 +4,7 @@ name: "Crypto · NFT Terminal"
 tagline: "Self-hosted crypto & NFT terminal — prices, perps, wallet viewer & NFT floors"
 icon: https://raw.githubusercontent.com/infinityFlyLabs/crypto-nft-terminal-umbrel/main/infinityfly-crypto-nft-terminal/icon.svg
 category: Finance
-version: "1.0.4"
+version: "1.1.0"
 port: 8787
 description: >-
   A clean, self-hosted crypto & NFT terminal for your Umbrel.
@@ -24,7 +24,7 @@ submission: https://github.com/infinityFlyLabs/crypto-nft-terminal-umbrel
 repo: https://github.com/infinityFlyLabs/crypto-nft-terminal-umbrel
 support: https://github.com/infinityFlyLabs/crypto-nft-terminal-umbrel/issues
 gallery: []
-releaseNotes: "Fixes: Web links on NFT collections (handles both list and plain-text homepage data), plus pointer cursor on all clickable elements."
+releaseNotes: "New: the app now remembers your NFT collections, wallet address and selected chains between visits; switching tabs no longer resets loaded data; huge wallets show 24 NFTs with a 'show more' button."
 dependencies: []
 path: ""
 defaultUsername: ""
